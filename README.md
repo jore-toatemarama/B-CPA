@@ -1,4 +1,33 @@
-# Fullstack Collection App
+# PROJECT 1
+
+## ⚡BLITZ⚡ - CARD PROPOSAL APP
+
+### Purpose
+For submission of ideas from my friends and public for characters to fit into my worldbuilding ideas. and for use in the game BLITZ
+Also for practice in my coding skills
+
+### Planning to use:
+
+#### Components
+- App
+- LoginForm
+- OneCard
+- NewCard
+- RandomCards
+- SavedCards
+
+##### Routes
+- Homepage - This is the main page. with the login form that appears over the front, 
+- Proposal - This is the page with the forms for entering in data
+- Account - this is the account page, with saved cards and data
+
+#### Other
+Forms - for name, class and abilities.
+Textbox - for descriptions and other details
+Tailwind CLI for the CSS (maybe with daisyUI)
+React, Database, Auth
+
+
 
 This repo is designed to provide space to code a fullstack app. It contains node modules and folders for databases, routes, api requests, react components, and redux actions and creators. Let's get going!
 
