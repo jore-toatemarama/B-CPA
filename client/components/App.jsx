@@ -1,13 +1,15 @@
 import React from 'react'
 
+import CardList from './CardList'
+
 function App () {
   return (
     <>
       <header className="header">
-        <h1>My Collection</h1>
+        <h1>Blitz</h1>
       </header>
       <section className="main">
-        {/* add your code here */}
+        <CardList />
       </section>
     </>
   )
