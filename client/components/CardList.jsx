@@ -9,7 +9,9 @@ function CardList () {
   return (
     <>
       <h2>Card Library</h2>
+      <div className="card__container">
       {cards.map(card => <OneCard card={card} key={card.id}/>)}
+      </div>
 
     </>
 )}
