@@ -11,12 +11,12 @@ exports.up = async knex => {
     table.string('race')
     table.string('class')
 
-    table.text('ability_one_id')
-    table.text('ability_two_id')
-    table.text('ability_three_id')
-    table.text('ability_four_id')
-    table.text('ability_supreme_id')
-    table.text('ability_passive_id')
+    table.integer('ability_one_id')
+    table.integer('ability_two_id')
+    table.integer('ability_three_id')
+    table.integer('ability_four_id')
+    table.integer('ability_supreme_id')
+    table.integer('ability_passive_id')
   })
 }
 
